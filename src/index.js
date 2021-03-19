@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import { CallBackHook } from './components/05-Memos/CallbackHook';
-import { TodoApp } from './components/08-useReducer/TodoApp';
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 //import { MemoHook } from './components/05-Memos/MemoHook';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
@@ -17,7 +18,7 @@ import { TodoApp } from './components/08-useReducer/TodoApp';
 
 ReactDOM.render(
   
-    <TodoApp />,
+    <MainApp />,
  
   document.getElementById('root')
 );
